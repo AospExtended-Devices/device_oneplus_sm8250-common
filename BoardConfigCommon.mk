@@ -30,6 +30,7 @@ BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 BOARD_VENDOR := oneplus
 
 COMMON_PATH := device/oneplus/sm8250-common
+TARGET_BOARD_INFO_FILE := $(COMMON_PATH)/board-info.txt
 
 # Architecture
 TARGET_ARCH := arm64
