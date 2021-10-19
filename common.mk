@@ -414,11 +414,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/odm/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
 
 # OnePlus
-#PRODUCT_PACKAGES += \
-#    oneplus-fwk.oneplus_kona
+PRODUCT_PACKAGES += \
+    oneplus-fwk
 
-#PRODUCT_BOOT_JARS += \
-#    oneplus-fwk.oneplus_kona
+PRODUCT_BOOT_JARS += \
+    oneplus-fwk
 
 # Power
 PRODUCT_PACKAGES += \
