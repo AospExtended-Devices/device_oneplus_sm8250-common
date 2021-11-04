@@ -350,22 +350,22 @@ vendor/lib64/hw/camera.qcom.so
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 
-# CDSP - from LA.UM.9.12.r1-11500-SMxx50.0
-vendor/bin/cdsprpcd|c48bc0a10a334c8c1332d77299e83e9d99e9f0b1
-vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
-vendor/lib/libcdsp_default_listener.so|5e90f604ac99493cfc08a89a2b58f5cf7bfb9683
-vendor/lib/libcdsprpc.so|a316d0c79f59dcea703d4f064ef11cd10a2b2f7d
-vendor/lib/libfastcrc.so|9677b12c558025527f5675ff40179715a3125c8c
-vendor/lib/libmdsprpc.so|0d14efaa9e9a4dcb8fb950c88de8867556a2baac
-vendor/lib/libsdsprpc.so|86ff5061543ed2025696451dbb8b0ecf40ef69a5
-vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
-vendor/lib64/libcdfw.so|543b8282f4b6719113f04e14dd908137521e2bb5
-vendor/lib64/libcdfw_remote_api.so|558636f4fa4c17f29cb644c8c6e07766b7240005
-vendor/lib64/libcdsp_default_listener.so|e2d8987e8101dbb58b54e9abf524dfbdac7d605b
-vendor/lib64/libcdsprpc.so|93071278f93eb3096aeb53bcb3d6677c8e279de5
-vendor/lib64/libmdsprpc.so|85c7058a401aa72842f9a01f365fcb0c81a3702b
-vendor/lib64/libsdsprpc.so|ce37ee097367061b087c2e11a4f6fd54fffa5ce7
-vendor/lib64/libsysmon_cdsp_skel.so|3ae87b24980f983ba83fd563134328bb0f6f62e8
+# CDSP
+vendor/bin/cdsprpcd
+vendor/etc/init/vendor.qti.cdsprpc-service.rc
+vendor/lib/libcdsp_default_listener.so
+vendor/lib/libcdsprpc.so
+vendor/lib/libfastcrc.so
+vendor/lib/libmdsprpc.so
+vendor/lib/libsdsprpc.so
+vendor/lib/libsysmon_cdsp_skel.so
+vendor/lib64/libcdfw.so
+vendor/lib64/libcdfw_remote_api.so
+vendor/lib64/libcdsp_default_listener.so
+vendor/lib64/libcdsprpc.so
+vendor/lib64/libmdsprpc.so
+vendor/lib64/libsdsprpc.so
+vendor/lib64/libsysmon_cdsp_skel.so
 
 # Charger
 vendor/bin/dashd
