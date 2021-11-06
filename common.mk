@@ -597,11 +597,8 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libnl \
-    libwfdaac_vendor
+    libnl
 
-#PRODUCT_BOOT_JARS += \
-#    WfdCommon
 
 TARGET_SUPPORTS_BLUR := true
 EXTRA_FOD_ANIMATIONS := true
