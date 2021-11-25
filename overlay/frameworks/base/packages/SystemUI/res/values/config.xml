@@ -33,4 +33,7 @@
      vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
     <integer name="config_udfpsEnrollProgressBar" translatable="false">100</integer>
+
+    <!-- The battery current divider, our kernel reports current value in µA. -->
+    <integer name="config_battCurrentDivider" translatable="false">1000</integer>
 </resources>
