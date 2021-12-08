@@ -36,4 +36,8 @@
 
     <!-- The battery current divider, our kernel reports current value in µA. -->
     <integer name="config_battCurrentDivider" translatable="false">1000</integer>
+
+    <!-- Whether to pulse onFingerDown actions while in AOD. -->
+    <bool name="config_pulseOnFingerDownInAod">true</bool>
+
 </resources>
