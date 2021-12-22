@@ -510,6 +510,10 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.2-service-qti
 
+# UdfpsResources
+PRODUCT_PACKAGES += \
+    UdfpsResources
+
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
