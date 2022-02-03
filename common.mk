@@ -629,7 +629,8 @@ PRODUCT_PACKAGES += \
 # Media
 PRODUCT_PACKAGES += \
     libmm-omxcore \
-    android.hardware.media.c2@1.0.vendor
+    android.hardware.media.c2@1.0.vendor \
+    android.hardware.media.c2@1.2.vendor
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
