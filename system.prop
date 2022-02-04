@@ -1,6 +1,9 @@
 # Async MTE on system_server
 arm64.memtag.process.system_server=off
 
+#ADB
+ro.adb.secure.recovery=0
+
 # Audio
 audio.offload.min.duration.secs=30
 persist.vendor.audio.hac.enable=false
@@ -106,3 +109,4 @@ ro.vendor.qti.va_aosp.support=1
 persist.service.adb.enable=1                                                    
 persist.service.debuggable=1
 persist.sys.usb.config=mtp,adb
+
