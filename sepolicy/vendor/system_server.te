@@ -15,4 +15,4 @@ allow system_server vendor_proc_shs:dir { search };
 
 allow system_server vendor_camera_prop:file { read };
 
-allow system_server sysfs_tri_state_key:file { read };
+allow system_server sysfs_tri_state_key:file { getattr open read };
