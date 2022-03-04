@@ -17,7 +17,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.dot.device.DeviceExtras"
+    package="org.aex.device.DeviceExtras"
     android:sharedUserId="android.uid.system"
     android:versionCode="4"
     android:versionName="4.0">
@@ -29,8 +29,8 @@
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
-    <protected-broadcast android:name="org.dot.device.DeviceExtras.UPDATE_SLIDER_POSITION" />
-    <protected-broadcast android:name="org.dot.device.DeviceExtras.UPDATE_SLIDER_SETTINGS" />
+    <protected-broadcast android:name="org.aex.device.DeviceExtras.UPDATE_SLIDER_POSITION" />
+    <protected-broadcast android:name="org.aex.device.DeviceExtras.UPDATE_SLIDER_SETTINGS" />
 
     <uses-sdk
         android:minSdkVersion="28"
@@ -180,7 +180,7 @@
 
         <!-- Edge Touch Tile -->
         <service
-            android:name="org.dot.device.DeviceExtras.EdgeTouchTileService"
+            android:name="org.aex.device.DeviceExtras.EdgeTouchTileService"
             android:icon="@drawable/ic_edge_touch"
             android:label="@string/edge_touch_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -193,7 +193,7 @@
         <!-- Search Indexing -->
         <provider
             android:name=".ConfigPanelSearchIndexablesProvider"
-            android:authorities="org.dot.device"
+            android:authorities="org.aex.device"
             android:exported="true"
             android:grantUriPermissions="true"
             android:multiprocess="false"
