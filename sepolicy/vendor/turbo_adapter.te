@@ -1,1 +1,1 @@
-allow turbo_adapter default_android_hwservice:hwservice_manager find;
+#allow turbo_adapter default_android_hwservice:hwservice_manager find;
